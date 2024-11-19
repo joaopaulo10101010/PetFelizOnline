@@ -14,6 +14,7 @@ body
 
 header 
 {
+    box-shadow: 1px 1px 1px rgb(red, green, blue);
     width: 95vw;
     position: fixed;
     color: white;
@@ -29,13 +30,12 @@ header
 footer
 {
     padding-bottom: 1%;
-
     width: 100%;
-    height: auto;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    position: relative;
 }
 textarea
 {
@@ -303,18 +303,20 @@ textarea
 
 #backfooterbloco
 {
-    padding-top: 10%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 10vw;
     flex-direction: row;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: auto;
 }
 
 #blocofooter
 {
-    padding-bottom: 6%;
+    padding-bottom: 8dvw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -702,11 +704,24 @@ textarea
 }
 .nomeplanobloco
 {
-
+    display: flex;
+    justify-content: center;
     width: 82%;
-    height: 36%;
+    height: auto;
+    min-height: 36%;
     border-radius: 1vw 1vw 2vw 2vw;
+    padding-bottom: 5%;
     
+}
+.nomeplanobloco ol
+{
+    padding-top: 10%;
+    width: 80%;
+    padding-left: 10%;
+}
+.nomeplanobloco ol li
+{
+    font-size: 100%;
 }
 .textodoplano
 {
@@ -754,8 +769,8 @@ textarea
 {
     margin-top: 2.5%;
     border-radius: 3vw;
-    width: 40%;
-    height: 45%;
+    width: auto;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -771,7 +786,9 @@ textarea
 }
 #titlefooter h1
 {
-    font-size: 2vw;
+    text-align: center;
+    width: 40vw;
+    font-size: 200%;
 }
 #backblocoserviço
 {
@@ -779,7 +796,7 @@ textarea
     justify-content: center;
     align-items: center;
     width: 95vw;
-    height: 18vw;
+    height: auto;
     border-radius: 3vw;
     
 }
@@ -796,7 +813,7 @@ textarea
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 80%;
+    height: auto;
     border-radius: 3vw;
 }
 .espasamentocentro
@@ -805,8 +822,10 @@ textarea
 }
 .espaçotexto
 {
-    height: 85%;
+    padding-top: 5%;
+    height: auto;
     width: 85%;
+    padding-bottom: 8%;
 }
 .espaçotexto1
 {
