@@ -1,0 +1,857 @@
+/* ---------------------- Configuração Importante --------------------------- */
+*
+{
+    padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
+    margin: 0;
+
+}
+/* ----------------------- CSS direto ---------------------------------------- */
+body 
+{
+    overflow-x: hidden;
+    font-family: Arial, sans-serif; 
+}
+
+header 
+{
+    width: 95vw;
+    position: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 0% 0% 3vw 3vw;
+    height: 10vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    z-index: 1000;
+}
+
+footer
+{
+    padding-bottom: 1%;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+textarea
+{
+    resize: none;
+}
+
+
+
+/* ------------------ Cores da Pagina ------------------------------ */
+
+.backgroundcolor1
+{
+    background-color: rgb(255, 178, 107);
+}
+.backgroundcolor2
+{
+    background-color: rgb(107, 217, 129);
+}
+.backgroundcolor3
+{
+    background-color: white;
+}
+.backgroundcolor4
+{
+    background-color: rgb(234, 234, 234);
+}
+.backgroundcolor5
+{
+    background-color: rgb(148,255,109);
+}
+
+
+
+
+.backimg2
+{
+    height: 18dvw;
+    width: 18dvw;
+    border-radius: 50vw;
+    
+}
+
+/* ---------------------------------------------------------------- */
+
+/* -------------------------- Classes --------------------------------------- */
+
+
+
+/*--------------------- Footer ------------------------------*/
+
+.footerblocotexto
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    height: 50%;
+    color: gray;
+}
+#footerblocotexto1
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;
+    color: gray;
+}
+#footerblocotexto3
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 50%;
+    color: gray;
+}
+.bandeirasdepagamento
+{
+    width: 8vh;
+    height: 10.2vh;
+}
+
+
+
+/* --------------------------- IDs ----------------------------------------- */
+
+/*------------- Barra de Navegação --------------*/
+
+#barranavegacao
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#barranavegacao a
+{
+    font-size: 2vh;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+/*--------- Logo ----------*/
+#Logo
+{
+    height: 80%;
+    width: 80%;
+}
+
+#backcenterlogo
+{
+    position: center;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 3vw;
+    margin-top: -0.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 07.5%;
+}
+
+#backlogo
+{
+    position: center;
+    width: 12vw;
+    height: 11vw;
+    border-radius: 3vw;
+    margin-top: -0.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+/*--------------------------- Sections ----------------------------------------*/
+#sobre
+{
+    width: 70vh;
+    height: 13vh;
+    border: 1px solid rgb(191,255,169);
+    border-radius: 3vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2vw;
+    margin-top: 4%;
+
+
+}
+
+#sobre p
+{
+    width: 85%;
+    height: 70%;
+    font-size: 1.8vh;
+}
+
+#sobreimg1
+{
+    background-image: url("../imagens/mãobola.jpg");
+    margin-right: 6%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: 80%;
+}
+#sobreimg2
+{
+    background-image: url("../imagens/Gemini_Generated_Image_c31w4qc31w4qc31w.jfif");
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: 40%;
+}
+#sobreimg3
+{
+    background-image: url("../imagens/petfelizlojafisica.webp");
+    margin-bottom: 2%;
+    margin-left: 6%;
+    background-size: cover;
+    background-position: 40%;
+}
+#section1
+{
+    background-image: url("../imagens/imagemcachorro1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-position-y: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2
+{
+    width: 99.9%;
+    height: 100vh;
+    border: 1px solid rgb(255, 178, 107);
+}
+#section2div
+{
+    width: 96%;
+    height: 95%;
+    border-radius: 100%;
+    margin-left: 2%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#section2img
+{
+
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagens/woman-6687637_1280.jpg);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#divsec3
+{
+    margin-top: 15%;
+    margin-right: 10%;
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divsec3 p
+{
+    width: 85%;
+    
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+/* ------------- Footer --------------- */
+
+#backfooterbloco
+{
+    padding-top: 10%;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+#blocofooter
+{
+    padding-bottom: 6%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+
+#blocofooter
+{
+    width: 100%;
+    height: 15vw;
+
+}
+#contact
+{
+    border: 2px solid black;
+}
+.iconlogofooter
+{
+    width: 6%;
+    height: 10%;
+   
+}
+.regulaimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*------------------------------------*/
+
+
+#espaço
+{
+    width: 99.8%;
+    height: 0.7vw;
+    border: 0.3vh solid rgb(255, 178, 107);
+}
+#section4
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image:url(../imagens/york-4748868_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+#divsec4
+{
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+#divsec4 h1
+{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#divsec4 p
+{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+  #contato{
+   
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  #contato {
+    
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  #contato form {
+   
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contatolabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contato input,
+  #contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(191,255,169);
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #section5
+{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5item1
+{
+    border-radius: 3vw;
+    height: 60%;
+    width: 20%;
+    background-image: url(../imagens/Hospital.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+#section5item2
+{
+    border-radius: 3vw;
+    height: 60%;
+    width: 35%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#section5item3
+{
+    border-radius: 3vw;
+    height: 30%;
+    width: 20%;
+    background-image: url(../imagens/petfelizlojafisica.webp);
+    background-size: cover;
+}
+#div5background1
+{
+    width: 98%;
+    height: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#div5background2
+{
+    width: 98.5%;
+    height: 97%;
+    border-radius: 3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#linhalaranja
+{
+    width: 85%;
+    height: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
+}
+
+
+#div5background2 h1
+{
+    padding-top: 5%;
+}
+#section6
+{
+    background-image: url(../imagens/para_fundo.jpg);
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recomendação
+{
+    width: 90%;
+    height: 80%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+}
+#recoback
+{
+    height: 100%;
+    width: 55%;
+    border-radius: 0% 3vw 3vw 0%;
+    clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section5line
+{
+    margin-right: -10%;
+    width: 25%;
+    height: 95%;
+    clip-path: polygon(99% 0, 100% 0, 56% 100%, 55% 100%);
+    margin-top: 1%;
+}
+.section5img1class
+{
+    border-radius: 50vw;
+    width: 30%;
+    height: 40%;
+}
+#section5img1
+{
+    width: 33%;
+    height: 90%;
+    margin-right: -20%;
+    margin-bottom: -5%;
+}
+#section5img2
+{
+    width: 50%;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#section5img3
+{
+    width: 38%;
+    height: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: right;
+}
+#section5divisão1
+{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5divisão2
+{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.backimg51
+{
+
+    width: 98%;
+    height: 98%;
+    border-radius: 100%;
+}
+#backtextreda1
+{
+    margin-right: -10%;
+    width: 33%;
+    height: 78%;
+    border-radius: 3vw;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#backtextreda2
+{
+    height: 97%;
+    width: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#backtextreda3
+{
+    display: flex;
+
+    width: 98.5%;
+    height: 98%;
+    border-radius: 3vw;
+    flex-direction: column;
+    align-items: center;
+}
+#backtextreda3 h1
+{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+#linhalaranja2
+{
+    width: 85%;
+    height: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
+}
+#section7
+{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section7back1
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 10vw;
+}
+#section7back2
+{
+    margin-top: 2%;
+    width: 99%;
+    height: 99%;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../imagens/para_fundo.jpg);
+}
+.planosli
+{
+    width: 22%;
+    height: 78%;
+    border-radius: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planosli1
+{
+    margin-left: 3%;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 6vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imagemdocirculo
+{
+    width: 60%;
+    height: 40%;
+    border-radius: 6vw;
+    margin-top: -15%;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nomeplanobloco
+{
+
+    width: 82%;
+    height: 36%;
+    border-radius: 1vw 1vw 2vw 2vw;
+    
+}
+.textodoplano
+{
+    z-index: 30;
+    margin-left: -12%;
+    margin-bottom: -5%;
+    width: 50%;
+    height: 9.5%;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+.textodoplano1
+{
+    border-radius: 1vw;
+    width: 99%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dentrocirculo
+{
+    width: 99%;
+    height: 99%;
+    border-radius: 100%;
+    background-color: #4CAF50;
+    
+}
+#sec5mar
+{
+    margin: 5%;
+}
+.centralizar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#backtitlefooter
+{
+    margin-top: 2.5%;
+    border-radius: 3vw;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter
+{
+    width: 99%;
+    height: 96%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter h1
+{
+    font-size: 2vw;
+}
+#backblocoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 18vw;
+    border-radius: 3vw;
+    
+}
+#backserv
+{
+    margin-left: -86%;
+    margin-top: 1%;
+    width: 10%;
+    height: 10%;
+}
+.formacontatoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+    border-radius: 3vw;
+}
+.espasamentocentro
+{
+    margin: 3%;
+}
+.espaçotexto
+{
+    height: 85%;
+    width: 85%;
+}
+.espaçotexto1
+{
+    height: 50%;
+    width: 100%;
+}
+.espaçotexto1 h2
+{
+    font-size: 120%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#coelho
+{
+    background-image:url(../imagens/Coelho.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+#raposa
+{
+    background-image: url(../imagens/Raposa.jpg);
+    background-position: 75%;
+    background-size: cover;
+}
+#falcao
+{
+    background-image: url(../imagens/Falcao.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+#aderiam1
+{
+    background-image: url(../imagens/para_comentario1.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+#aderiam2
+{
+    background-image: url(../imagens/comenatario2.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+#aderiam3
+{
+    background-image: url(../imagens/comentario3.jpg);
+    background-size: cover;
+    background-position: 75%;
+}
