@@ -3,13 +3,19 @@
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
+    scroll-behavior: smooth;
 
+}
+
+:target
+{
+    scroll-margin-top: 130px;
 }
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
-    overflow-x: hidden;
     font-family: Arial, sans-serif; 
+    
 }
 
 header 
@@ -67,7 +73,37 @@ textarea
     background-color: rgb(148,255,109);
 }
 
+/*-------------------------- Noturno ---------------------------------------*/
 
+.noturnobackgroundcolor1
+{
+    background-color: rgb(255, 178, 107);
+}
+
+.noturnobackgroundcolor2
+{
+    background-color: rgb(107, 217, 129);
+}
+
+.noturnobackgroundcolor3
+{
+    background-color: black;
+    color: white
+}
+
+.noturnobackgroundcolor4
+{
+    background-color: black;
+    color: black
+}
+.noturnobackgroundcolor5
+{
+    background-color: rgb(148,255,109);
+}
+
+
+
+/*-----------------------------------------------------------------*/
 
 
 .backimg2
@@ -135,7 +171,7 @@ textarea
 {
     font-size: 2vh;
     width: 10%;
-    height: 100%;
+    height: 72%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,6 +201,7 @@ textarea
 
 #backlogo
 {
+    box-shadow: 0px 1px 0.8px 1px rgb(214, 230, 207);
     position: center;
     width: 12vw;
     height: 11vw;
@@ -226,18 +263,16 @@ textarea
 }
 #section1
 {
-    background-image: url("../imagens/imagemcachorro1.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    overflow: hidden;
+    width: auto;
     height: 100vh;
-    background-position-y: 20%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 #section2
 {
@@ -272,12 +307,13 @@ textarea
 {
     height: 100vh;
     width: 100%;
-    background-image: url(../imagens/woman-6687637_1280.jpg);
+    background-image: url(../imagens/york-4748868_1280.jpg);
     display: flex;
     justify-content: right;
     align-items: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }
 #divsec3
 {
@@ -366,9 +402,10 @@ textarea
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image:url(../imagens/york-4748868_1280.jpg);
+    background-image:url(../imagens/woman-6687637_1280.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: cover;
 }   
 #divsec4
 {
@@ -401,68 +438,147 @@ textarea
 
 
 
-  #contato{
-   
-    padding: 20px;
-    background-color: rgb(240, 240, 240);
-  }
-  
-  #contato {
-    
-    font-size: 15px;
-    margin-bottom: 20px;
-  }
-  
-  #contato form {
-   
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  #contatolabel {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  #contato input,
-  #contato textarea {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid rgb(191,255,169);
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  
-  #contact button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  #section5
+#contato
 {
     width: 100%;
-    height: 45vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#formulario
+{
+ 
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 7%;
+    padding-right: 1%;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+
+}
+
+#backformulario h1
+{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.barradecor
+{
+
+    width: 100%;
+    height: 0.2vh;
+}
+
+#planoselect
+{
+    width: 93%;
+    padding: 1%;
+    border-radius: 0.5vw;
+    border: 2px solid rgb(191,255,169);
+    margin-left: 4%;
+}
+#barradebaixobaixo
+{
+    margin-bottom: 8%;
+}
+#barradebaixocima
+{
+    margin-top: 7%;
+}
+
+#backformulario
+{
+    border: 1px solid greenyellow;
+    border-radius: 3vh;
+    padding: 2%;
+    width: 30%;
+    height: auto;
+}
+
+#formulario button
+{
+    width: 80%;
+    margin-left: 7%;
+}
+
+#formulario label
+{
+    margin-left: 4%;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.entrada
+{
+    margin-left: 4%;
+    padding: 1%;
+    height: auto;
+    width: 90%;
+    border: 2px solid rgb(191,255,169);
+    border-radius: 0.5vw;
+    margin-bottom: 10px;
+}
+#botaoback
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+#botao
+{
+    max-width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 1.5vw;
+    width: auto;
+    border: 0.15vw solid rgb(255, 178, 107);
+    background-color: rgb(191,255,169);
+    height: auto;
+    font-size: 200%;
+    box-shadow: 0.05vw 0.05vw 0.05vw 0.09vw rgb(109, 107, 106);
+}
+#section5
+{
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #section5item1
 {
+    max-width: 40vh;
+    min-width: 20vh;
+    min-height: 35vh;
+    max-height: 50vh;
     border-radius: 3vw;
-    height: 60%;
-    width: 20%;
+    height: 35vw;
+    width: 20vw;
     background-image: url(../imagens/Hospital.jpg);
     background-size: cover;
     background-position: 100%;
 }
 #section5item2
 {
+    padding-left: 0.4vh;
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
     border-radius: 3vw;
-    height: 60%;
+    height: auto;
     width: 35%;
     margin: 5%;
     display: flex;
@@ -472,16 +588,23 @@ textarea
 }
 #section5item3
 {
+    background-position: center;
+    min-height: 25vh;
+    max-width: 45vh;
+    min-width: 25vh;
     border-radius: 3vw;
-    height: 30%;
-    width: 20%;
+    height: 20vw;
+    width: 25vw;
     background-image: url(../imagens/petfelizlojafisica.webp);
     background-size: cover;
 }
 #div5background1
 {
+    padding-left: 0.3vh;
+    padding-bottom: 0.7vh;
+    padding-top: 0.7vh;
     width: 98%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
     justify-content: right;
@@ -489,8 +612,11 @@ textarea
 }
 #div5background2
 {
+    padding-left: 0.3vh;
+    padding-top: 0.3vh;
+    padding-bottom: 1.5vh;
     width: 98.5%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
     align-items: center;
@@ -507,6 +633,7 @@ textarea
 
 #div5background2 h1
 {
+    text-align: center;
     padding-top: 5%;
 }
 #section6
@@ -725,11 +852,13 @@ textarea
 }
 .textodoplano
 {
+    padding-left: 1%;
+    padding-right: 1%;
     z-index: 30;
     margin-left: -12%;
     margin-bottom: -5%;
-    width: 50%;
-    height: 9.5%;
+    width: auto;
+    height: 9%;
     border-radius: 1vw;
     display: flex;
     justify-content: center;
@@ -739,8 +868,9 @@ textarea
 }
 .textodoplano1
 {
+    text-align: center;
     border-radius: 1vw;
-    width: 99%;
+    width: auto;
     height: 98%;
     display: flex;
     justify-content: center;
@@ -873,4 +1003,111 @@ textarea
     background-image: url(../imagens/comentario3.jpg);
     background-size: cover;
     background-position: 75%;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    background-color: rgb(255, 178, 107);
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px rgba(238, 120, 10, 0.398);
+    border-radius: 5vw;
+    
+  }
+  
+  nav a:active {
+    color: rgb(255, 178, 107);
+    background-color: #0fb435;
+    transform: scale(0.9);
+    border-radius: 10vw;
+    box-shadow: 0px 2px 5px rgba(180, 235, 150, 0.398);
+    
+  }
+.endereçocredenciado
+{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 90%;
+}
+#imagemform
+{
+    background-position-y: 50%;
+    background-size: cover;
+    background-image: url("../imagens/cat-4364464_640.jpg");
+    width: 31vw;
+    height: 30vw;
+    margin-right: 3%;
+    border-radius: 30vw;
+    background-color: aliceblue;
+}
+
+.carrossel 
+{
+    margin-right: -100%;
+    display: flex; 
+    width: 200vw;
+    height: 100%; 
+   
+    border-radius: 10px;
+    transition: transform 1s ease-in-out; 
+}
+
+.carrossel img 
+{
+    width: 100vw;
+    flex-shrink: 0;
+
+}
+#textodeapresentacao
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30vh;
+    z-index: 1;
+    margin-bottom: 19vh;
+    padding: 0.7vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 2vw;
+    background-color: rgba(255, 178, 107,0.7);
+}
+#textodeapresentacaodentro
+{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: rgba(255,255,255,0.5);
+
+}
+.textodoplano1 h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    width: auto;
+    height: 100%;
+}
+#mapadosite
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 3vw;
 }

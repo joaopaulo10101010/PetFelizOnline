@@ -6,6 +6,8 @@
       <title>Pet Feliz - Plano de Saúde para Pets</title>
       <link rel="stylesheet" type="text/css" href="./css/styles.css">
       <link rel="stylesheet" type="text/css" href="./css/ferrementajoao.css">
+      <link rel="stylesheet" type="text/css" href="./css/responcividade.css">
+      <script src="./javascript/java.js" defer></script>
   </head>
   <body>
       <header class="backgroundcolor2">
@@ -22,11 +24,27 @@
           </nav>
       </header>
 
-      <section id="section1">
 
-          <h1>Pet Feliz</h1>
-          <h2>Plano de Saúde para Pets</h2>
+
+      <section id="section1">
+        <div class="carrossel">
+          <img id="contador" src="./imagens/imagemcachorro1.jpg" alt="Imagem 1">
+          <img src="./imagens/carocel1.jpg">
+          <img src="./imagens/carocel2.jpg">
+          <img src="./imagens/carocel3.jpg">
+          <img src="./imagens/carocel4.jpg">
+          <img src="./imagens/carocel5.jpg">
+      </div>
+      <div id="textodeapresentacao">
+        <div id="textodeapresentacaodentro">
+          <h1>PETFELIZ</h1>
+          <h3>O Melhor plano de saude para seus Pets</h3>
+        </div>
+      </div>
       </section>
+
+
+
 
       <section id="section2" class="backgroundcolor1">
         <div id="section2div" class="backgroundcolor3">
@@ -67,15 +85,37 @@
           </div>
       </section>
       <section id="section5" class="backgroundcolor1">
-        <div id="section5item1" class="backgroundcolor3"></div>
+        <div id="section5item1"><iframe id="mapadosite" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.2037104598226!2d-46.6963857!3d-23.632874599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50eee849aed9%3A0xf795d72fbb6fb01d!2sR.%20da%20Paz%2C%20789%20-%20Alto%20da%20Boa%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002327-060!5e0!3m2!1sen!2sbr!4v1732576225303!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
   
         <div id="section5item2" class="backgroundcolor3">
           <div id="div5background1" class="backgroundcolor1">
             <div class="backgroundcolor3" id="div5background2">
               <h1>REDE CREDENCIADA</h1>
               <div id="linhalaranja" class="backgroundcolor1"></div>
-              <div class="borda">
+              <div class="endereçocredenciado">
                 <h4>Clínica Pet Vida</h4>
+                <p>Endereço: Rua das Flores, 123 - São Paulo, SP</p>
+                <p>Telefone: (11) 1234-5678</p>
+              </div>
+              <div class="endereçocredenciado">
+                <h4>Clínica Pet Vida</h4>
+                <p onclick="mapa1();">Endereço: Av. Brasil, 456 - São Paulo, SP</p>
+                <p>Telefone: (11) 2345-6789</p>
+              </div>
+              <div class="endereçocredenciado">
+                <h4>Clínica Pet Vida</h4>
+                <p>Endereço: Rua da Paz, 789 - São Paulo, SP</p>
+                <p>Telefone: (11) 3456-7890</p>
+              </div>
+              <div class="endereçocredenciado">
+                <h4>Clínica Pet Vida</h4>
+                <p>Endereço: Rua do Sol, 101 - São Paulo, SP</p>
+                <p>Telefone: (11) 4567-8901</p>
+              </div>
+              <div class="endereçocredenciado">
+                <h4>Clínica Pet Vida</h4>
+                <p>Endereço: Rua dos Campos, 202 - São Paulo, SP</p>
+                <p>Telefone: (11) 5678-9012</p>
               </div>
             </div>
           </div>
@@ -126,7 +166,7 @@
 
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>COELHO</h1>
+                    <h1>PLANO - COELHO</h1>
                   </div>
                 </div>
                 
@@ -138,7 +178,6 @@
                     <li>Tratamentos de Emergência</li>
                   </ol>
                 </div>
-                 
               </div>
 
             </section>
@@ -149,7 +188,7 @@
                 </div>
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>RAPOSA</h1>
+                    <h1>PLANO - RAPOSA</h1>
                   </div>
                 </div>
                 <div class="backgroundcolor3 nomeplanobloco">
@@ -171,7 +210,7 @@
                 </div>
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>FALCÂO</h1>
+                    <h1>PLANO - FALCÂO</h1>
                   </div>
                 </div>
                 <div class="backgroundcolor3 nomeplanobloco">
@@ -192,25 +231,41 @@
 
         </div>
 
-      </section>          
-        <section id="contato">
-          <h2>Entre em Contato</h2>
-          <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+      </section>        
+    
+      <section id="contato" class="backgroundcolor1">
+        <div id="imagemform" class="borda">
+
+        </div>
+        <div id="backformulario" class="backgroundcolor3">
+        <h1>ADIQUIRA SEU PLANO</h1>
+        <div class="barradecor backgroundcolor2"></div>
+        <div class="barradecor backgroundcolor1"></div>
+        <form id="formulario" action="https://formspree.io/f/mqakznqq" method="POST">
+          <label for="name">Nome:</label>
+          <input class="entrada" type="text" id="name" name="name" placeholder="" required>
         
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+          <label for="email">E-mail:</label>
+          <input class="entrada" type="email" id="email" name="email" required>
         
-            <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone">
+          <label for="phone">Telefone:</label>
+          <input class="entrada" type="tel" id="phone" name="phone">
         
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-        
-            <button type="submit">Enviar</button>
-          </form>
-        </section>
+          <label for="planoselect">Plano:</label>
+          <select id="planoselect" name="planoselect">
+            <option value="Plano Coelho">Plano - Coelho</option>
+            <option value="Plano Raposa">Plano - Raposa</option>
+            <option value="Plano Falcão">Plano - Falcão</option>
+          </select>
+          <div id="barradebaixocima" class="barradecor backgroundcolor2"></div>
+          <div id="barradebaixobaixo" class="barradecor backgroundcolor1"></div>
+          <div id="botaoback">
+            <input id="botao" type="submit" value="FAZER O PEDIDO">
+          </div>
+          
+        </form>
+        </div>
+      </section>
       <!-- Separação da parte de cima e de baixo do site -->
 
     <footer class="backgroundcolor4">
