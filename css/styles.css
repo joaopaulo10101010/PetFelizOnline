@@ -217,6 +217,8 @@ textarea
 }
 
 /*--------------------------- Sections ----------------------------------------*/
+
+
 #sobre
 {
     width: 45%;
@@ -232,7 +234,7 @@ textarea
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
-
+    scroll-margin-top: 15vw;
 
 }
 
@@ -579,6 +581,7 @@ textarea
 }
 #section5item1
 {
+  
     max-width: 40vh;
     min-width: 20vh;
     min-height: 35vh;
