@@ -1,11 +1,573 @@
 /*-------------------- RESPONCIVIDADE DO SITE ------------------------*/
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 1000px) 
 {
     /* Configuração que vai ser aplicada quando o dispositivo que estiver sendo acessado pelo site for menor que 768px de largura */
+    
+    
+    /*--------------- Footer Bandeiras de pagamento ---------------------*/
+
+    #backfooterbloco{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #footerblocotexto1{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+    #footerblocotexto3
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .regulaimg
+    {
+        max-width: 60%;
+    }
+    footer{
+        height: 120vw;
+        min-height: 95vh;
+        max-height: 96vh;
+    }
+    #footerblocotexto1
+    {
+        text-align: center;
+    }
+    #formasdepagamento{
+       width: auto;
+    }
 
 
 
+
+    /*------------------------- SAC e Contato ---------------------------------*/
+
+
+    #backblocoserviço{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
+    .formacontatoserviço
+    {
+        width: 90%;
+        margin-top: 2%;
+        height: auto;
+    }
+    .espaçotexto{
+        
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+ 
+        padding: 0;
+        width: auto;
+    }
+    .espaçotexto1
+    {
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+       
+    }
+    .espasamentocentro
+    {
+        margin-bottom: -0.2%;
+        margin-top: 2%;
+    }
+    #backtitlefooter
+    {
+        width: auto;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+    #titlefooter{
+        padding-right: 2%;
+        padding-left: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+
+    }
+    #titlefooter h1{
+        font-size: 150%;
+    }
+
+    /* ------------------------- Section do formulario ---------------------------- */
+
+    #contato{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #imagemform{
+        width: 60vw;
+        height: 60vw;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    #backformulario{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    /*-------------------------- Section7 ----------------------------------*/
+
+    #section7{
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #section7back1{
+        padding-left: 1%;
+        height: auto;
+        width: 85%;
+    }
+    #section7back2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .planosli{
+        padding-top: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: auto;
+        height: auto;
+
+    }
+
+    .planosli1{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        padding-bottom: 4vw;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        
+
+    }
+    
+    .imagemdocirculo{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 15vw;
+    margin-top: -15%;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+
+    }
+
+    .textodoplano{
+    margin: 0;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    padding-bottom: 0.2vh;
+    padding-top: 0.2vh;
+    z-index: 30;
+    width: auto;
+    height: auto;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+    .textodoplano1{
+        width: auto;
+        height: auto;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+       
+    }
+    .textodoplano1 h1{
+        font-size: 3.5vw;
+    }
+    .nomeplanobloco{
+    
+        width: auto;
+        height: auto;
+        font-size: 3vw;
+        border-radius: 1vw 1vw 3vw 3vw;
+    }
+
+
+    /*------------------------- Section 3 -----------------------------------*/
+
+    #section3{
+        background-position-x: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #divsec3
+    {
+        margin: 0;
+        margin-top: 30%;
+        width: 60%;
+    }
+
+    /*----------------------- Section4 ---------------------------*/
+
+   
+    #divsec4{
+        margin: 0;
+        margin-top: 50%;
+        width: 65%;
+    }
+    
+    #section4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*---------------------- Section 5 -----------------------------*/
+    
+    #section5
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 8%;
+    }
+
+    #section5item1{
+        
+        width: 80%;
+        max-width: none;
+        margin-top: 6%;
+    }
+    #mapadosite{
+        width: 100%;
+    }
+
+    #section5item2{
+        max-width: none;
+        width: 80%;
+
+    }
+    #section5item3
+    {
+        max-width: none;
+        min-width: none;
+        width: 80%;
+        height: 100%;
+        min-height: none;
+        max-height: none;
+    }
+
+    /*---------------------------- Section2 --------------------------------------------*/
+
+    #section2{
+        padding-top: 2%;
+        padding-bottom: 3%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section2div{
+        margin: 0;
+        border-radius: 5vw;
+        width: 90%;
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    #section2img{
+        width: 80%;
+        height: auto;
+        padding: 0;
+        
+    }
+    .backimg2{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 0%;
+    }
+    #sobreimg2{
+        display: none;
+        margin: 0;
+    }
+    #sobreimg3{
+        width: 100%;
+        height: 50vw;
+        margin: 0;
+        border-radius: 3vh;
+        
+    }
+    #sobreimg1{
+        display: none;
+        margin: 0;
+    }
+    #sobre{
+        width: 75%;
+    }
+
+
+    /*----------------------Section1--------------------------*/
+
+    #section1
+    {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .carrossel{
+        object-fit: none; 
+        object-position: center; 
+    }
+    
+
+    /*---------------------- Section6 ------------------------*/
+
+    #section6
+    {
+        width: 100%;
+        height: auto;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    #recomendação{
+        
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2%;
+
+    }
+
+    #backtextreda1{
+        width: 90%;
+        margin: 0;
+        height: auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+    }
+
+    #backtextreda2{
+        margin: 0;
+        padding-right: 1%;
+    }
+    #backtextreda3{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #titulo{
+        font-size: 100%;
+    }
+
+    #linhalaranja2{
+        height: 0.2vh;
+    }
+
+    .nomedocomentario, .nomedocomentario1{
+        font-size: 2vh;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .textocomentario{
+        border-radius: 3vh;
+        padding: 4%;
+        font-size: 1.5vh;
+    }
+
+    #section5line{
+        clip-path: none;
+        width: 90%;
+        height: 0.4vh;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+
+    #recoback{
+
+        clip-path: none;
+        width: 100%;
+        height: 55vw;
+        border-radius: 0% 0% 3vw 3vw;
+    }
+
+    #barranavegacao, header{
+        display: none;
+    }
+
+    
+    .carrossel{
+        border: 1px solid black;
+        margin-top: -5%;
+
+    }
+
+
+
+    #backlogoresponcividade:hover{
+        transform: scale(110%);
+        transition: transform 0.3s ease-in-out; 
+
+    }
+
+    #backlogoresponcividade:not(:hover){
+        transform: scale(100%);
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    #backlogoresponcividade:active {
+        transform: scale(95%);
+        transition: transform 0.3s ease-in-out; 
+        
+    }
+
+
+
+
+
+
+
+    #menuresponcividade a:hover{
+        transform: scale(110%);
+        transition: transform 0.3s ease-in-out; 
+        background-color: rgb(255, 216, 145);
+
+    }
+
+    #menuresponcividade a:not(:hover){
+        transform: scale(100%);
+        transition: transform 0.3s ease-in-out; 
+    
+    }
+
+    #menuresponcividade a:active {
+        transform: scale(95%);
+        transition: transform 0.3s ease-in-out; 
+        background-color: rgb(255, 216, 145);
+        
+    }
+    
+
+    #backlogoresponcividade{
+        margin-top: 3%;
+        margin-left: 3%;
+        position: fixed;
+        width: 15vh;
+        height: 15vh;
+        border-radius: 3vh;
+        z-index: 100000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .displaynone{
+        z-index: 100000;
+    }
+
+    #backcenterlogoresponcividade{
+        width: 85%;
+        height: 95%;
+        border-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Logoresponcividade{
+        width: 90%;
+        height: 90%;
+
+    }
+
+    #menuresponcividade a{
+        text-decoration: none;
+        padding: 3%;
+        border-radius: 3vw;
+       
+    }
+
+    #menuresponcividade{
+
+        margin-left: -70%;
+        transition: transform 1s ease-in-out; 
+        border: 0.3vh solid rgb(76, 235, 62);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        position: fixed;
+        width: 65vw;
+        height: auto;
+        margin-top: 20vh;
+        border-radius: 0 3vh 3vh 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #menuresponcividade hr{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .displaynoneres
+    {
+        display: none;
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1001px) {
+
+    .displaynone{
+        display: none;
+    }
 
 
 }

@@ -1,23 +1,27 @@
-const carrossel = document.querySelector('.carrossel');
-const imagens = document.querySelectorAll('.carrossel img');
+
 const contador = document.getElementById("contador");
 
-let indice = 0;
+
 
 function teste()
 {
     alert("funcionando");
 }
 
+const carrossel = document.querySelector('.carrossel');
+const imagens = document.querySelectorAll('.carrossel div');
+let indice = 0;
 
-function mostrarProximaImagem() 
-{
-    indice = (indice + 1) % imagens.length; 
-    carrossel.style.transform = `translateX(${-indice * contador.width}px)`; 
+function mostrarProximaImagem() {
+  indice = (indice + 1) % imagens.length;
+  const largura = imagens[0].offsetWidth; 
+  carrossel.style.transform = `translateX(${-indice * largura}px)`; 
 }
 
-setInterval(mostrarProximaImagem, 6000); 
 
+carrossel.style.transform = 'translateX(0)'; 
+
+setInterval(mostrarProximaImagem, 6000); 
 
 const divs1 = document.querySelectorAll(".backgroundcolor1");
 const divs2 = document.querySelectorAll(".backgroundcolor2");
@@ -50,3 +54,24 @@ function mudarmapa()
    mapadogoogle.src = mapa2; 
 }
 
+const menuresponcivo = document.getElementById("menuresponcividade");
+
+let contador1 = 1;
+
+
+function mostramenu()
+{
+  
+
+  if(contador1 == 1){
+    menuresponcivo.classList.remove("displaynoneres");
+    menuresponcivo.style.transform = `translateX(${contador1 * menuresponcivo.offsetWidth}px)`; 
+    contador1 = 0;
+  }
+  else
+  {
+    menuresponcivo.style.transform = `translateX(${contador1 * menuresponcivo.offsetWidth}px)`; 
+    menuresponcivo.classList.add("displaynoneres");
+    contador1 = 1;
+  }
+}

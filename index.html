@@ -12,28 +12,55 @@
   <body>
       <header class="backgroundcolor2">
           <nav id="barranavegacao">
-              <a href="#section7">PLANOS</a>
+              <a href="#sobre">SOBRE</a>
+              
               <a href="#section5item1">REDE CREDENCIADA</a>
               <div id="backlogo" class="backgroundcolor5">
                   <div id="backcenterlogo" class="backgroundcolor3">
                       <img src="./imagens/logo_original.png" id="Logo" alt="Logo">                  
                   </div>
               </div>
-              <a href="#sobre">SOBRE</a>
+              <a href="#section7">PLANOS</a>
               <a href="#contato">CONTATO</a>
           </nav>
       </header>
+
+      <div id="backlogoresponcividade" onclick="mostramenu();" class="displaynone backgroundcolor5">
+        <div id="backcenterlogoresponcividade" class="displaynone backgroundcolor3">
+          <img src="./imagens/logo_original.png" id="Logoresponcividade" class="displaynone">
+        </div>
+      </div>
+
+      <div id="menuresponcividade" class="displaynone backgroundcolor2">
+        <a href="#sobre">SOBRE</a>
+        <hr style="border: 1px solid rgb(22, 175, 17); width: 80%;">
+        <a href="#section5item1">REDE CREDENCIADA</a>
+        <hr style="border: 1px solid rgb(22, 175, 17); width: 80%;">
+        <a href="#section7">PLANOS</a>
+        <hr style="border: 1px solid rgb(22, 175, 17); width: 80%;">
+        <a href="#contato">CONTATO</a>
+      </div>
 
 
 
       <section id="section1">
         <div class="carrossel">
+          
+          <div id="contador"></div>
+          <div id="carrocel1"></div>
+          <div id="carrocel2"></div>
+          <div id="carrocel3"></div>
+          <div id="carrocel4"></div>
+          <div id="carrocel5"></div>
+
+          <!--
           <img id="contador" src="./imagens/imagemcachorro1.jpg" alt="Imagem 1">
           <img src="./imagens/carocel1.jpg">
           <img src="./imagens/carocel2.jpg">
           <img src="./imagens/carocel3.jpg">
           <img src="./imagens/carocel4.jpg">
           <img src="./imagens/carocel5.jpg">
+          -->
       </div>
       <div id="textodeapresentacao">
         <div id="textodeapresentacaodentro">
@@ -49,7 +76,7 @@
       <section id="section2" class="backgroundcolor1">
         <div id="section2div" class="backgroundcolor3">
           <div id="sobre">
-            <p>Na Pet Feliz, nossa missão é cuidar da saúde e do bem-estar dos seus companheiros de quatro patas. Com uma trajetória de anos de dedicação e amor pelos animais, nos especializamos em oferecer a melhor cobertura de saúde para cães e gatos, garantindo que eles tenham o cuidado que merecem em todas as fases da vida.
+            <p>Na Pet Feliz, cuidamos da saúde e bem-estar dos seus pets. Com anos de dedicação, oferecemos a melhor cobertura de saúde para cães e gatos, garantindo cuidado em todas as fases da vida.
             </p>
           </div>
           <div id="section2img">
@@ -66,11 +93,9 @@
       
       <section id="section3">
         <div id="divsec3" class="backgroundcolor3">
-          <h1>Cuidar da saúde física do seu pet</h1>
+          <h1>Cuidar da saúde física do seu pet é essencial.</h1>
           <p>
-            Manter a saúde do seu pet em dia é essencial para uma vida longa e feliz. Consultas veterinárias regulares ajudam a prevenir e tratar doenças, muitas vezes silenciosas, como problemas cardíacos e dentários. Vacinação e proteção contra parasitas também são fundamentais para evitar complicações comuns.
-            
-            Uma alimentação equilibrada e atividades físicas garantem mais disposição e qualidade de vida. Cuidar da saúde física do seu pet é garantir que ele tenha uma vida saudável e cheia de energia ao seu lado.
+            Consultas regulares, vacinação, alimentação equilibrada e exercícios garantem prevenção, qualidade de vida e energia para uma convivência saudável e feliz.
           </p>
         </div>
       </section>
@@ -78,9 +103,8 @@
 
       <section id="section4">
         <div id="divsec4" class="backgroundcolor3">
-          <h1>O bem-estar emocional do seu pet também importa</h1>
-          <p>Além da saúde física, o bem-estar emocional do seu pet é fundamental. Carinho, brincadeiras e interação reduzem o estresse e a ansiedade, promovendo uma vida mais feliz.
-            Ambientes confortáveis e estímulos mentais, como brinquedos interativos, mantêm o seu pet ativo e engajado. Cuidar da saúde emocional garante uma convivência mais harmoniosa para todos.
+          <h1>O bem-estar emocional do seu pet é essencial</h1>
+          <p>Carinho, brincadeiras e estímulos mentais reduzem o estresse e promovem uma vida mais feliz, garantindo uma convivência harmoniosa.
           </p>
           </div>
       </section>
@@ -127,8 +151,35 @@
           <div id="backtextreda1" class="backgroundcolor3">
             <div id="backtextreda2" class="backgroundcolor1">
               <div id="backtextreda3" class="backgroundcolor3">
-                <h1>CLIENTES QUE JA ADERIRAM</h1>
+                <h1 id="titulo">CLIENTES QUE JA ADERIRAM</h1>
                 <div id="linhalaranja2" class="backgroundcolor1"></div>
+                
+                <div class="backcomentario">
+                  <h4 class="nomedocomentario">
+                    GabrielSantos
+                  </h4>
+                  <div class="textocomentario">
+                    Adorei! É um plano completo, e ainda é acessivel para a maioria das pessoas.
+                  </div>
+                </div>
+
+                <div class="backcomentario">
+                  <h4 class="nomedocomentario1">
+                    Fernanda Mineira
+                  </h4>
+                  <div class="textocomentario">
+                    Adorei! É um plano completo, e ainda é acessivel para a maioria das pessoas.
+                  </div>
+                </div>
+
+                <div class="backcomentario">
+                  <h4 class="nomedocomentario">
+                    Pedro Rocha
+                  </h4>
+                  <div class="textocomentario">
+                    Adorei! É um plano completo, e ainda é acessivel para a maioria das pessoas.
+                  </div>
+                </div>
 
               </div>
             </div>
@@ -155,7 +206,7 @@
       </section>
       <section id="section7" class="backgroundcolor1">
         <div id="section7back1" class="backgroundcolor2">
-          <div id="section7back2" class="backgroundcolor3">
+          <div id="section7back2">
 
             <section class="planosli backgroundcolor2">
               <div class="planosli1 backgroundcolor1">
@@ -166,7 +217,7 @@
 
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>PLANO - COELHO</h1>
+                    <h1>PLANO  COELHO</h1>
                   </div>
                 </div>
                 
@@ -181,6 +232,8 @@
               </div>
 
             </section>
+
+
             <section id="sec5mar" class="planosli backgroundcolor2">
               <div class="planosli1 backgroundcolor1">
                 <div class="imagemdocirculo backgroundcolor1">
@@ -188,12 +241,12 @@
                 </div>
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>PLANO - RAPOSA</h1>
+                    <h1>PLANO  RAPOSA</h1>
                   </div>
                 </div>
                 <div class="backgroundcolor3 nomeplanobloco">
                   <ol>
-                    <li>Consultas Veterinárias</li>
+              
                     <li>Vacinas e Vermifugação</li>
                     <li>Tratamentos de Emergência</li>
                     <li>Cirurgias</li>
@@ -210,16 +263,16 @@
                 </div>
                 <div class="textodoplano backgroundcolor2">
                   <div class="backgroundcolor3 textodoplano1">
-                    <h1>PLANO - FALCÂO</h1>
+                    <h1>PLANO  FALCÂO</h1>
                   </div>
                 </div>
                 <div class="backgroundcolor3 nomeplanobloco">
                   <ol>
-                    <li>	Consultas Veterinárias</li>
-                    <li>Vacinas e Vermifugação</li>
+                    <li>Consultas</li>
+                    <li>Vacinas</li>
                     <li>Tratamentos de Emergência</li>
                     <li>Cirurgias</li>
-                    <li>Descontos exclusivos</li>
+                    
                   </ol>
                 </div>
 
@@ -233,10 +286,8 @@
 
       </section>        
     
-      <section id="contato" class="backgroundcolor1">
-        <div id="imagemform" class="borda">
-
-        </div>
+      <section id="contato" class="backgroundcolor1 borda">
+        <div id="imagemform"></div>
         <div id="backformulario" class="backgroundcolor3">
         <h1>ADIQUIRA SEU PLANO</h1>
         <div class="barradecor backgroundcolor2"></div>

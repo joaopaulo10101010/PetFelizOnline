@@ -189,8 +189,8 @@ textarea
 #backcenterlogo
 {
     position: center;
-    width: 10vw;
-    height: 10vw;
+    width: 90%;
+    height: 95%;
     border-radius: 3vw;
     margin-top: -0.8%;
     display: flex;
@@ -204,6 +204,8 @@ textarea
     box-shadow: 0px 1px 0.8px 1px rgb(214, 230, 207);
     position: center;
     width: 12vw;
+    min-height: 13vh;
+    min-width: 13vh;
     height: 11vw;
     border-radius: 3vw;
     margin-top: -0.8%;
@@ -217,8 +219,8 @@ textarea
 /*--------------------------- Sections ----------------------------------------*/
 #sobre
 {
-    width: 70vh;
-    height: 13vh;
+    width: 45%;
+    height: auto;
     border: 1px solid rgb(191,255,169);
     border-radius: 3vw;
     justify-content: center;
@@ -226,14 +228,19 @@ textarea
     display: flex;
     margin-bottom: 2vw;
     margin-top: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 
 }
 
 #sobre p
 {
-    width: 85%;
-    height: 70%;
+    text-align: justify;
+    width: 100%;
+    height: auto;
     font-size: 1.8vh;
 }
 
@@ -248,7 +255,7 @@ textarea
 #sobreimg2
 {
     background-image: url("../imagens/Gemini_Generated_Image_c31w4qc31w4qc31w.jfif");
-    margin-top: 10%;
+    margin-top: 6%;
     margin-bottom: 2%;
     background-size: cover;
     background-position: 40%;
@@ -264,7 +271,7 @@ textarea
 #section1
 {
     overflow: hidden;
-    width: auto;
+    width: 100%;
     height: 100vh;
     text-align: center;
     display: flex;
@@ -276,8 +283,8 @@ textarea
 
 #section2
 {
-    width: 99.9%;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     border: 1px solid rgb(255, 178, 107);
 }
 #section2div
@@ -305,18 +312,17 @@ textarea
 
 #section3
 {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-image: url(../imagens/york-4748868_1280.jpg);
     display: flex;
     justify-content: right;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-size: cover;
 }
 #divsec3
 {
+    padding: 1%;
     margin-top: 15%;
     margin-right: 10%;
     border: 1px solid rgb(191,255,169);
@@ -328,12 +334,19 @@ textarea
     align-items: center;
     flex-direction: column;
 }
+
+#divsec3 h1{
+    text-align: center;
+    width: 90%;
+}
+
 #divsec3 p
 {
-    width: 85%;
+    margin-top: 2%;
+    text-align: justify;
+    width: 95%;
     
-    padding-bottom: 4%;
-    padding-top: 1%;
+    
 }
 /* ------------- Footer --------------- */
 
@@ -397,15 +410,18 @@ textarea
 }
 #section4
 {
+    
     display: flex;
     justify-content: right;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image:url(../imagens/woman-6687637_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15%;
+
 }   
 #divsec4
 {
@@ -419,8 +435,10 @@ textarea
     align-items: center;
     margin-right: 10%;
 }
+
 #divsec4 h1
 {
+    width: 90%;
     padding-top: 3%;
     text-align: center;
     padding-bottom: 2%;
@@ -771,7 +789,9 @@ textarea
 #section7
 {
     width: 100%;
-    height: 45vw;
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -782,14 +802,17 @@ textarea
     justify-content: right;
     align-items: center;
     width: 90%;
-    height: 80%;
+    height: auto;
     border-radius: 10vw;
+
 }
 #section7back2
 {
     margin-top: 2%;
     width: 99%;
-    height: 99%;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 2%;
     border-radius: 10vw;
     display: flex;
     justify-content: center;
@@ -800,7 +823,7 @@ textarea
 .planosli
 {
     width: 22%;
-    height: 78%;
+    height: auto;
     border-radius: 6vw;
     display: flex;
     justify-content: center;
@@ -808,10 +831,11 @@ textarea
 }
 .planosli1
 {
+    padding-bottom: 15%;
     margin-left: 3%;
     margin-top: 10%;
-    width: 100%;
-    height: 100%;
+    width: 20vw;
+    height: auto;
     border-radius: 6vw;
     display: flex;
     align-items: center;
@@ -819,8 +843,8 @@ textarea
 }
 .imagemdocirculo
 {
-    width: 60%;
-    height: 40%;
+    width: 10vw;
+    height: 10vw;
     border-radius: 6vw;
     margin-top: -15%;
     box-shadow: 1px 1px 1px black;
@@ -838,6 +862,8 @@ textarea
     min-height: 36%;
     border-radius: 1vw 1vw 2vw 2vw;
     padding-bottom: 5%;
+    padding-left: 3%;
+    min-height: 10vw;
     
 }
 .nomeplanobloco ol
@@ -852,13 +878,14 @@ textarea
 }
 .textodoplano
 {
+    margin-bottom: -5%;
     padding-left: 1%;
     padding-right: 1%;
     z-index: 30;
-    margin-left: -12%;
-    margin-bottom: -5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     width: auto;
-    height: 9%;
+    height: auto;
     border-radius: 1vw;
     display: flex;
     justify-content: center;
@@ -870,8 +897,10 @@ textarea
 {
     text-align: center;
     border-radius: 1vw;
+    padding-left: 1%;
+    padding-right: 1%;
     width: auto;
-    height: 98%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1050,20 +1079,24 @@ nav a {
 
 .carrossel 
 {
-    margin-right: -100%;
+    
     display: flex; 
-    width: 200vw;
+    width: 100%;
     height: 100%; 
-   
+    
     border-radius: 10px;
     transition: transform 1s ease-in-out; 
 }
 
-.carrossel img 
-{
-    width: 100vw;
-    flex-shrink: 0;
 
+.carrossel div
+{
+    background-position: center;
+    padding-right: 50vw;
+    padding-left: 50vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    width: 100%;
 }
 #textodeapresentacao
 {
@@ -1101,7 +1134,7 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 100%;
+    font-size: 1vw;
     width: auto;
     height: 100%;
 }
@@ -1111,3 +1144,81 @@ nav a {
     height: 100%;
     border-radius: 3vw;
 }
+.carrossel div{
+    width: 100%;
+    height: 100%;
+}
+#contador
+{
+    background-image: url(../imagens/imagemcachorro1.jpg);
+    background-size: cover;
+}
+#carrocel1{
+    background-image: url(../imagens/carocel1.jpg);
+    background-size: cover;
+}
+#carrocel2{
+    background-image: url(../imagens/carocel2.jpg);
+    background-size: cover;
+}
+#carrocel3{
+    background-image: url(../imagens/carocel3.jpg);
+    background-size: cover;
+}
+#carrocel4{
+    background-image: url(../imagens/carocel4.jpg);
+    background-size: cover;
+}
+#carrocel5{
+    background-image: url(../imagens/carocel5.jpg);
+    background-size: cover;
+}
+#titulo{
+    text-align: center;
+    font-size: 1.2vw;
+}
+.backcomentario{
+    padding-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 96%;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.nomedocomentario
+{
+    margin-right: 40%;
+    font-size: 1vw;
+    border: 0.15vw solid rgb(125, 224, 145);
+    border-radius: 3vw;
+    width: auto;
+    padding: 1%;
+}
+.textocomentario{
+    
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 3vw;
+    border: 0.15vw solid rgb(255, 193, 77);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 70%;
+    height: auto;
+    font-size: 1vw;
+}
+.nomedocomentario1
+{
+    margin-left: 40%;
+    font-size: 1vw;
+    border: 0.15vw solid rgb(125, 224, 145);
+    border-radius: 3vw;
+    width: auto;
+    padding: 1%;
+}
+
